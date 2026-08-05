@@ -62,7 +62,7 @@
 
         .img-container {
             width: 100%;
-            height: 550px;
+            height: 550px; /* يمكنك زيادة هذا الارتفاع لعرض الصورة كاملة */
             overflow: hidden;
             position: relative;
         }
@@ -70,7 +70,7 @@
         .img-container img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: cover; /* يضمن ملء المساحة دون تشويه */
             display: block;
         }
 
@@ -100,7 +100,8 @@
 
     <div class="card">
         <div class="img-container">
-            <img src="omran.jpg" alt="الفحل عمران">
+            <!-- تأكد من أن اسم الملف المرفوع على GitHub هو تماماً: hero-image.jpg -->
+            <img src="hero-image.jpg" alt="الفحل عمران - صورة احتفالية">
         </div>
         <div class="card-body">
             <h2>🔥 أحلى عريس مستقبلي</h2>

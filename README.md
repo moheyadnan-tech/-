@@ -24,8 +24,9 @@
 
         header {
             margin-top: 20px;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             text-align: center;
+            max-width: 600px;
         }
 
         header h1 {
@@ -33,6 +34,14 @@
             color: #fbbf24;
             text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
             letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #e2e8f0;
+            line-height: 1.6;
+            font-weight: 500;
         }
 
         .card {
@@ -66,19 +75,12 @@
         }
 
         .card-body {
-            padding: 24px;
+            padding: 20px;
         }
 
         .card-body h2 {
-            font-size: 1.5rem;
-            color: #e2e8f0;
-            margin-bottom: 10px;
-        }
-
-        .card-body p {
-            color: #94a3b8;
-            font-size: 1rem;
-            line-height: 1.6;
+            font-size: 1.3rem;
+            color: #fbbf24;
         }
 
         footer {
@@ -93,16 +95,15 @@
 
     <header>
         <h1>الفحل عمران</h1>
+        <p>كل سنة وانت طيب يا اخويا، عقبال مليون سنة وتتحقق كل اللي نفسك فيه وتتجوز سيدني سويني! ❤️🎉</p>
     </header>
 
     <div class="card">
         <div class="img-container">
-            <!-- استبدل اسم الملف هنا باسم ملف الصورة الخاص بك إذا لزم الأمر -->
-            <img src="WhatsApp Image 2026-08-05 at 21.06.08.jpeg" alt="الفحل عمران">
+            <img src="omran.jpg" alt="الفحل عمران">
         </div>
         <div class="card-body">
-            <h2>مرحباً بك في الموقع الرسمي</h2>
-            <p>أهلاً بك في الواجهة الخاصة بالفحل عمران.</p>
+            <h2>🔥 أحلى عريس مستقبلي</h2>
         </div>
     </div>
 
